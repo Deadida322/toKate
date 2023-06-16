@@ -1,0 +1,19 @@
+23-05*2 ---2:48
+CTF:
+https://0xrick.github.io/lists/stego/
+- Стега:
+	stegosolve
+	steghide info file --JPEG, BMP, WAV and AU
+	steghide extract -sf file
+	exiftool file (https://exiftool.org/)
+	binwalk -e file
+	zsteg -a file
+	python3 WavSteg.py -r -s soundfile -o outputfile : extracts data from a wav sound file and outputs the data into a new file (https://github.com/ragibson/Steganography#WavSteg)
+	sonic visualizer
+- web:
+	перебор субдоменов
+
+	NODEPAD++ + плагины например на url decode
+
+ADMIN:
+https://www.server-world.info/en/
